@@ -1,4 +1,4 @@
-import logo from "../assets/logo.PNG";
+import logo from "../assets/veecous_logo.png";
 import "../styles/NavBar.css";
 import { NavLink } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
