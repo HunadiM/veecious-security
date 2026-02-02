@@ -5,7 +5,7 @@ export default function Contact() {
     <>
       <section className="contact">
         <h2>Get in Touch</h2>
-        {/* WORKING HOURS BOX */}
+        
         <div className="working-hours-box">
           <h3> Office Hours</h3>
           <p>Control Room: <strong>24 hours/7 days</strong></p>
@@ -13,7 +13,7 @@ export default function Contact() {
           <p>Saturday & Sunday: <strong>09:00 – 13:00</strong></p>
           
         </div>
-        {/* CONTACT FORM */}
+       
         <p>Reach out to us using the form below.</p>
         <form
           className="contact-form"

@@ -1,5 +1,6 @@
 
 import { FaPhone, FaEnvelope, FaGlobe } from "react-icons/fa";
+import "../styles/global.css";
 
 
 export default function Home() {

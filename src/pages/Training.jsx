@@ -12,7 +12,7 @@ export default function Training() {
           roles across South Africa.
         </p>
 
-        {/* PSIRA GRADES */}
+        
         <h3>PSIRA Training Grades Explained</h3>
         <div className="psira-grades">
 
@@ -62,7 +62,7 @@ export default function Training() {
 
         </div>
 
-        {/* FIREARM COMPETENCY */}
+      
         <h3>Firearm Competency Training</h3>
         <p>
           Our firearm competency courses comply with South African legal
@@ -107,7 +107,7 @@ export default function Training() {
         </div>
       </section>
 
-      {/* CTA */}
+    
       <section className="cta">
         <h2>Ready to Start Your Training?</h2>
         <p>
