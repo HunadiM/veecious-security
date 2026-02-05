@@ -1,4 +1,6 @@
-import FloatingSocial from "../components/FloatingSocial";
+
+import "../styles/global.css";
+
 export default function Services() {
   const services = [
     "Armed & Unarmed Reaction",
@@ -22,6 +24,7 @@ export default function Services() {
           </div>
         ))}
       </div>
+      
 
       <div className="cta">
         <h3>Ready to protect your Home and Business?</h3>

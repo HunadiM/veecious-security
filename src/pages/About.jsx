@@ -1,9 +1,10 @@
-import security1 from "../assets/security1.jpeg";
-import security2 from "../assets/security2.jpeg";
-import FloatingSocial from "../components/FloatingSocial";
+
 import "../styles/global.css";
+import { useNavigate } from "react-router-dom";
 
 export default function About() {
+  const navigate = useNavigate();
+
   return (
     <>
       <section className="about-intro">
@@ -27,7 +28,19 @@ export default function About() {
         </div>
       </section>
 
-     
+    
+      <section className="gallery-cta">
+        <h2>See Our Work</h2>
+        
+        <button
+          className="gallery-btn"
+          onClick={() => navigate("/Gallery")}
+        >
+          View Full Gallery
+        </button>
+
+        
+      </section>
 
       
     </>
